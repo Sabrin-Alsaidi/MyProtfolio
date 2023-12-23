@@ -1,0 +1,42 @@
+@import './Navigation';
+@import './Footer';
+
+@mixin diplayflex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec-2-pg-2 {
+    @include diplayflex();
+    
+    .sec-2-contant{
+        width: 40%;
+        padding-top: 7%;
+        h1{
+            color:$PrimaryColor;
+        }
+        .content{
+            font-size:1.3em;
+            color: $secondaryColor;
+            text-align:justify;
+        }
+    } 
+    .sec-2-pt2{
+
+        padding-left: 20% ;
+        img{
+            padding-top: 20%;
+        }
+        h3{
+            color:$PrimaryColor;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .par2{
+            font-size: 1em;
+            color: $secondaryColor;
+            text-align: center;
+        }
+    }
+}

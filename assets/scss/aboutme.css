@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("../image /Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.nav-contant {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+  text-decoration: none;
+}
+.nav-contant a {
+  text-decoration: none;
+  color: #5B4F47;
+}
+.nav-contant a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer .sec-2 {
+  background-color: #E0D4C6;
+  padding: 0.5%;
+  margin-bottom: 0%;
+}
+footer .sec-2 .footer-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec-2-pg-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sec-2-pg-2 .sec-2-contant {
+  width: 40%;
+  padding-top: 7%;
+}
+.sec-2-pg-2 .sec-2-contant h1 {
+  color: #8F5E37;
+}
+.sec-2-pg-2 .sec-2-contant .content {
+  font-size: 1.3em;
+  color: #5B4F47;
+  text-align: justify;
+}
+.sec-2-pg-2 .sec-2-pt2 {
+  padding-left: 20%;
+}
+.sec-2-pg-2 .sec-2-pt2 img {
+  padding-top: 20%;
+}
+.sec-2-pg-2 .sec-2-pt2 h3 {
+  color: #8F5E37;
+  font-size: 1.5em;
+  text-align: center;
+}
+.sec-2-pg-2 .sec-2-pt2 .par2 {
+  font-size: 1em;
+  color: #5B4F47;
+  text-align: center;
+}/*# sourceMappingURL=aboutme.css.map */

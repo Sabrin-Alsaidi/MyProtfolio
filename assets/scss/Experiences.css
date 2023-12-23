@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("../image /Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.nav-contant {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+  text-decoration: none;
+}
+.nav-contant a {
+  text-decoration: none;
+  color: #5B4F47;
+}
+.nav-contant a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer .sec-2 {
+  background-color: #E0D4C6;
+  padding: 0.5%;
+  margin-bottom: 0%;
+}
+footer .sec-2 .footer-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: #8F5E37;
+  margin-top: 4%;
+}
+
+.Sec2-bg {
+  background-color: #E0D4C6;
+  height: 50vh;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+.sec2-pt1, .sec2-pt2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 4%;
+  text-align: center;
+}
+.sec2-pt1 .sec2-pt1-1, .sec2-pt2 .sec2-pt1-1, .sec2-pt2 .sec2-pt2-3, .sec2-pt2 .sec2-pt2-2, .sec2-pt2 .sec2-pt2-1, .sec2-pt1 .sec2-pt1-3, .sec2-pt2 .sec2-pt1-3, .sec2-pt1 .sec2-pt1-2, .sec2-pt2 .sec2-pt1-2 {
+  width: 20vw;
+}
+.sec2-pt1 .sec2-pt1-1 h4, .sec2-pt2 .sec2-pt1-1 h4, .sec2-pt2 .sec2-pt2-3 h4, .sec2-pt2 .sec2-pt2-2 h4, .sec2-pt2 .sec2-pt2-1 h4, .sec2-pt1 .sec2-pt1-3 h4, .sec2-pt2 .sec2-pt1-3 h4, .sec2-pt1 .sec2-pt1-2 h4, .sec2-pt2 .sec2-pt1-2 h4 {
+  font-size: 1.5em;
+  padding-bottom: 3%;
+  color: #8F5E37;
+}
+.sec2-pt1 .sec2-pt1-1 .p1, .sec2-pt2 .sec2-pt1-1 .p1, .sec2-pt2 .sec2-pt2-3 .p1, .sec2-pt2 .sec2-pt2-2 .p1, .sec2-pt2 .sec2-pt2-1 .p1, .sec2-pt1 .sec2-pt1-3 .p1, .sec2-pt2 .sec2-pt1-3 .p1, .sec2-pt1 .sec2-pt1-2 .p1, .sec2-pt2 .sec2-pt1-2 .p1 {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-top: 3%;
+}
+.sec2-pt1 .sec2-pt1-1 p, .sec2-pt2 .sec2-pt1-1 p, .sec2-pt2 .sec2-pt2-3 p, .sec2-pt2 .sec2-pt2-2 p, .sec2-pt2 .sec2-pt2-1 p, .sec2-pt1 .sec2-pt1-3 p, .sec2-pt2 .sec2-pt1-3 p, .sec2-pt1 .sec2-pt1-2 p, .sec2-pt2 .sec2-pt1-2 p {
+  font-size: 0.8em;
+}/*# sourceMappingURL=Experiences.css.map */

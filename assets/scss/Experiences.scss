@@ -1,0 +1,67 @@
+@import './Navigation';
+@import './Footer';
+
+@mixin diplayflex($diraction){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: $diraction;
+}
+
+
+.title{
+    text-align: center;
+    color:$PrimaryColor;
+    margin-top: 4%;
+}
+
+.Sec2-bg{
+    background-color: $bg-color;
+    height: 50vh;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.sec2-pt1{
+    @include diplayflex(row);
+    padding-top: 4%;
+    text-align: center;
+
+    .sec2-pt1-1{
+        width: 20vw;
+        h4{
+            font-size: 1.5em;
+            padding-bottom: 3%;
+            color: $PrimaryColor;
+        }
+        .p1{
+            font-size: 1.1em;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+        p{
+            font-size:0.8em ;
+
+        }
+    }
+    .sec2-pt1-2{
+        @extend .sec2-pt1-1;
+    }
+    .sec2-pt1-3{
+        @extend .sec2-pt1-1;
+    }
+}
+
+.sec2-pt2{
+    @extend .sec2-pt1;
+
+    .sec2-pt2-1{
+        @extend .sec2-pt1-1;
+    }
+    .sec2-pt2-2{
+        @extend .sec2-pt1-1;
+    }
+    .sec2-pt2-3{
+        @extend .sec2-pt1-1;
+    }
+
+}

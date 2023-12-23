@@ -1,0 +1,35 @@
+$PrimaryColor:#8F5E37;
+$secondaryColor:#5B4F47;
+$bg-color:#E0D4C6;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family:'Times New Roman', Times, serif ;
+}
+body{
+background-image: url("../image /Background.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: auto;
+}
+.nav-contant{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    text-decoration: none;
+
+    a{
+        text-decoration: none;
+        color:$secondaryColor;
+        &:hover{
+            text-decoration: underline;
+        }   
+    }
+}
